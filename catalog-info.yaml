@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TypeScript React Application
+  title: TypeScript React Application
+  description: No requirements specified
+  annotations:
+    github.com/project-slug: 
+    backstage.io/managed-by-location: file:./catalog-info.yaml
+    jira.com/project-key: SCRUM
+  tags:
+    - React
+    - Node.js
+    - Express
+spec:
+  type: service
+  owner: backstage-user
+  lifecycle: experimental
+  system: microservices-platform
